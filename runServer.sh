@@ -1,0 +1,2 @@
+#!/bin/sh
+java -cp build -Djavax.net.ssl.keyStore=keys/server.key -Djavax.net.ssl.keyStorePassword=sdis2020 -Djavax.net.ssl.trustStore=keys/truststore -Djavax.net.ssl.trustStorePassword=sdis2020 app.Server 127.0.0.100 2000
